@@ -25,6 +25,19 @@ body {
   width: 100%;
 }
 
+.announcement {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: .5rem;
+  display: flex;
+  justify-content: center;
+  background: radial-gradient(rgb(247, 202, 24), rgb(245, 215, 110));
+  z-index: 100000;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 nav ul {
   list-style: none;
   display: flex;
@@ -192,7 +205,7 @@ nav ul li a.is-active {
   text-align: center;
 }
 
-.call p, .call>ul, .call>a, .call>h3 {
+.call p, .call>ul, .call>ol, .call>a, .call>h3 {
   line-height: 1.75;
   font-size: 1rem;
   max-width: 40rem;
@@ -309,4 +322,26 @@ nav ul li a.is-active {
 
 .description:last-child {
   color: #888;
+}
+
+h1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 0 .5rem;
+    position: relative;
+    font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 0 .5rem;
+    position: relative;
+    font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+}
+
+.schedule .row:first-of-type {
+    background-color: #e9f4ff;
 }
