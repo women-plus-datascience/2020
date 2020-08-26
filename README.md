@@ -1,1 +1,1 @@
-# [Website](http://women-plus-datascience.github.io/)!
+# [Website](http://women-plus-datascience.github.io/)
