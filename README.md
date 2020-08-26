@@ -1,3 +1,1 @@
-# women-plus-datascience.github.io
-
-[Wesbite](http://women-plus-datascience.github.io/)
+# Visit our website [here](http://women-plus-datascience.github.io/)
